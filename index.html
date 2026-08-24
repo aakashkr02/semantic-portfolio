@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aakash Kumar | Portfolio</title>
+  <meta name="description" content="Responsive portfolio website using HTML, CSS Grid, Flexbox, media queries and dark mode." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Aakash<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Advanced CSS3 & Responsive Architecture</p>
+          <h1>Responsive Portfolio Website</h1>
+          <p class="hero-text">
+            A semantic portfolio project built with CSS Grid, Flexbox, mobile-first media queries,
+            and CSS variables for light and dark mode.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-box">
+            <div class="profile-circle">AK</div>
+            <h3>Aakash Kumar</h3>
+            <p>Software Builder</p>
+            <ul>
+              <li>HTML5 Semantic Layout</li>
+              <li>CSS Grid + Flexbox</li>
+              <li>Responsive Architecture</li>
+              <li>Dark / Light Theme</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">About</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <p>
+              I am Aakash Kumar, a learner and builder interested in web development,
+              programming, and modern user interface design.
+            </p>
+            <p>
+              This portfolio project demonstrates responsive layouts, reusable design tokens,
+              semantic HTML structure, and clean CSS architecture.
+            </p>
+          </div>
+
+          <div class="about-card stats-grid">
+            <div class="stat">
+              <h3>3+</h3>
+              <p>Sample Projects</p>
+            </div>
+            <div class="stat">
+              <h3>4</h3>
+              <p>Core Skills</p>
+            </div>
+            <div class="stat">
+              <h3>100%</h3>
+              <p>Responsive Layout</p>
+            </div>
+            <div class="stat">
+              <h3>2</h3>
+              <p>Theme Modes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Skills</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card">
+            <h3>HTML5</h3>
+            <p>Semantic tags, accessible structure, forms, sections, and clean document hierarchy.</p>
+          </article>
+
+          <article class="card">
+            <h3>CSS3</h3>
+            <p>Custom properties, transitions, gradients, cards, spacing scale, and visual polish.</p>
+          </article>
+
+          <article class="card">
+            <h3>Responsive Design</h3>
+            <p>Mobile-first media queries for layouts across mobile, tablet, and desktop screens.</p>
+          </article>
+
+          <article class="card">
+            <h3>JavaScript</h3>
+            <p>Theme toggling and mobile navigation interactions for a better user experience.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Projects</p>
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <span class="badge">Project 01</span>
+              <h3>Portfolio Landing Page</h3>
+            </div>
+            <p>
+              A clean landing page using CSS Grid for structure and Flexbox for alignment.
+            </p>
+            <a href="#" class="project-link">Live Preview</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="badge">Project 02</span>
+              <h3>Responsive Card Layout</h3>
+            </div>
+            <p>
+              A responsive card interface adapting smoothly across small and large devices.
+            </p>
+            <a href="#" class="project-link">Live Preview</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="badge">Project 03</span>
+              <h3>Dark Mode UI</h3>
+            </div>
+            <p>
+              A theme-switching interface powered by CSS variables and lightweight JavaScript.
+            </p>
+            <a href="#" class="project-link">Live Preview</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Contact</p>
+          <h2>Get In Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Contact Details</h3>
+            <p><strong>Name:</strong> Aakash Kumar</p>
+            <p><strong>Email:</strong> aakash112004kr@gmail.com</p>
+            <p><strong>Location:</strong> Patna, Bihar, India</p>
+            <p><strong>Role:</strong> Software Builder</p>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea rows="6" placeholder="Write your message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Aakash Kumar. All rights reserved.</p>
+      <p>Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
